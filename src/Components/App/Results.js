@@ -38,7 +38,7 @@ const Results = (props) => {
                                     <div style={{display:"inline-block", width: "7%", verticalAlign: "top"}}>
                                         <Avatar src={item.urlToImage} height="100px" width="100px"/>
                                     </div>
-                                    <div style={{display: "inline-block", width: "90%"}}>
+                                    <div style={{display: "inline-block", width: "90%", marginLeft: "10px"}}>
                                         <h4>{item.title}</h4>
                                         <p>{item.description}</p>
                                     </div>
